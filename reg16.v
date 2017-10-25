@@ -1,26 +1,17 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    15:23:57 10/23/2017 
-// Design Name: 
-// Module Name:    reg16 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+ /*******************************************************************************
+ * Author:   Steven Phan
+ * Email:	 
+ * Filename: 
+ * Date:     October 23, 2017
+ * Version:  1.0
+ * Purpose:  
+ *					
+ * Notes:	 
+ *******************************************************************************/
 module reg16(clk, reset, ld, Din, DA, DB, oeA, oeB);
 
-	input 			clk, reset, ld, oeA, oeB;
+	input 		   clk, reset, ld, oeA, oeB;
 	input  [15:0]  Din;
 	output [15:0]  DA, DB;
 	reg    [15:0]  Dout;
