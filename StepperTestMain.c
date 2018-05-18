@@ -1,5 +1,5 @@
 // Steven Phan 014358810
-// Marcos Arauzo 
+// Cody Huang
 // StepperTestMain.c
 // Runs on LM4F120/TM4C123
 // Test the functions provided by Stepper.c,
